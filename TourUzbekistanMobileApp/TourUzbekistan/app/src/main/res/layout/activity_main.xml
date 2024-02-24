@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/khiva"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="jumpToCityDetailsPage">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/khiva_city_image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/khiva" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:background="#66ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/aclonica"
+            android:shadowColor="#000000"
+            android:shadowRadius="5"
+            android:text="@string/khiva"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="36sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bukhara"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="jumpToCityDetailsPage">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/bukhara_city_image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bukhara" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:background="#66ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/aclonica"
+            android:shadowColor="#000000"
+            android:shadowRadius="5"
+            android:text="@string/bukhara"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="36sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/samarkand"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="jumpToCityDetailsPage">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/samarkand_city_image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/samarkand" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/aclonica"
+            android:shadowColor="#000000"
+            android:shadowRadius="5"
+            android:text="@string/samarkand"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="36sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

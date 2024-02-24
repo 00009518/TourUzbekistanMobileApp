@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tour Uzbekistan</string>
+    <string name="khiva_city_image">Khiva city image</string>
+    <string name="khiva">Khiva</string>
+    <string name="bukhara_city_image">Bukhara city image</string>
+    <string name="bukhara">Bukhara</string>
+    <string name="samarkand_city_image">Samarkand city image</string>
+    <string name="samarkand">Samarkand</string>
+    <string name="bukhara_description">Bukhara city description.</string>
+    <string name="samarkand_description">Samarkand city description.</string>
+    <string name="khiva_description">Khiva city description.</string>
+</resources>
